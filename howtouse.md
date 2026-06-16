@@ -29,7 +29,7 @@ int main()
 ```
 Now, the better way to do this is creating a Label object.
 ```cpp
-#include <ostl.h>
+#include "ostl.h"
 int main()
 {
   const OSTL::Size2D termSize = OSTL::get_terminal_size(); // You can also use OSTL::Size2D for the terminal size
